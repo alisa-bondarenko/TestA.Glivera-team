@@ -1,0 +1,47 @@
+*,:after,:before{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+*{-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;}
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{padding:0;margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:16px;background:#fff;}
+/*a{outline:0;text-decoration:underline;}
+a:hover{text-decoration:none;}
+form{padding:0;margin:0;}*/
+img{border:0;max-width:100%;height:auto;}
+/*td{vertical-align:top;}*/
+
+.row{width:100%;min-width:320px;margin:0 auto;padding:0 20px;}
+@media only screen and (min-width:1200px){.row{max-width:1200px;}}
+
+body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:stretch;align-content:stretch;flex-flow:column nowrap;height:100vh;}
+header{flex:0 0 auto;}
+.content{flex:1 0 auto;}
+footer{flex:0 0 auto;}
+
+@media only screen and (min-width:600px){
+.product-card-main{display:flex;display:-webkit-flex;flex-wrap:wrap;-webkit-flex-wrap:wrap;max-width:100%;}
+}
+
+.product-img img{display:block;margin:0 auto;}
+
+.product-code{padding:20px 0 10px;font-size:11px;color:#666;}
+
+.param-sale{padding:0 0 5px;}
+.item-sale,.item-best-price{display:inline-block;padding:0 7px;line-height:20px;font-size:12px;text-transform:uppercase;border-radius:3px;background:#ec4833;color:#fff;}
+.item-best-price{margin:0 0 0 3px;background:#679b2f;}
+
+.param-title{padding:0 0 10px;font-size:14px;color:#49b1ec;}
+
+.param-name h1{margin:0;padding:0 0 10px;font-size:16px;font-weight:600;}
+
+.param-rating{padding:0 0 20px;}
+.rating-text{margin:0 0 0 10px;font-size:14px;color:#999;}
+
+.param-price{padding:0 0 20px;}
+.price-text{font-size:14px;color:#999;}
+.new-price{padding:2px 0 5px;}
+.new-price-value{font-size:19px;font-weight:600;color:#ee5845;}
+.new-price-cashback{display:inline-block;margin:0 0 0 10px;padding:0 5px;line-height:20px;font-weight:600;background:#fdeeb9;}
+.old-price{text-decoration:line-through;color:#999;}
+
+.button-buy{margin:0 15px 0 0;padding:0 40px;line-height:35px;font-size:14px;font-weight:600;border:0;border-radius:30px;background:#4aa852;color:#fff;}
+.button-img{display:inline-block;width:30px;margin:0 5px 0 0;line-height:30px;text-align:center;border:0;background:transparent;}
+
